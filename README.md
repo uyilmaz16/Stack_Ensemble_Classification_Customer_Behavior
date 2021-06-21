@@ -9,3 +9,5 @@ Support Vector Machine was included due to the idea being that; in an imbalanced
 LDA and SVM were trained on a differently pre-processed set: Categorical features and constant columns were removed; missing values were imputed. 
 Meta-learner:
 While training random Forest algorithm on the outputs of base learners, 5-fold cross validation was applied to estimate the performance of our algorithm. In addition, stratification was applied in cross validation, since our data set is imbalanced. 
+
+(I reduced the training data before uploading here since it was very large and exceeded the size limit.)
